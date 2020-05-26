@@ -19,13 +19,13 @@ const modeOrder = [
   'geothermal',
   'biomass',
   'coal',
-  'wind',
-  'solar',
+  'gas',
+  'oil',
   'hydro',
   'hydro storage',
   'battery storage',
-  'gas',
-  'oil',
+  'wind',
+  'solar',
   'unknown',
 ];
 const PRODUCTION_MODES = modeOrder.filter(d => d.indexOf('storage') === -1);
